@@ -1,0 +1,33 @@
+@import url("header.css");
+@import url("main.css");
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.background__header {
+    background-color: #2B2B2B;
+}
+
+.background__main {
+    background-color: #2B2B2B;
+}
+
+.background__main6 {
+    background-image: url("../images/img/main6-bgc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blur {
+    filter: blur(9px);
+    width: 240px;
+    height: 240px;
+    
+}

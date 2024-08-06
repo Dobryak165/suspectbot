@@ -1,0 +1,46 @@
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.nav__left {
+    display: flex;
+    gap: 30px;
+}
+
+.Logo {
+    width: 243px;
+    height: 32px;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+.white {
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.signUp {
+    border: 1px #A259FF solid;  
+    background-color: #A259FF;  
+    padding: 21px 33px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

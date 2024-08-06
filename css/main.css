@@ -1,0 +1,489 @@
+/* Первый блок */
+
+.main__block {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__left {
+    margin-left: 50px;
+}
+
+.main__right {
+    margin-right: 50px;
+}
+
+.main__left__title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.main__left__description {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.main__left__button {
+    color: #fff;
+    border: 1px #A259FF solid;
+    background-color: #A259FF;
+    padding: 21px 52px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main__left__grades {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    gap: 90px;
+    padding-left: 0;
+}
+
+.main__left__grades__item {
+
+}
+
+.main__left__grades__first {
+    font-family: "Space Mono", monospace;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.main__left__grades__second {
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.main__right {
+    color: #fff;
+    background-color: #3B3B3B;
+    height: 520px;
+    border-radius: 20px;
+}
+
+.main__right__block__Image {
+    
+}
+
+.main__right__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+
+.main__right__username {
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    font-size: 18px;
+}
+.main__right__ImgP {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.main__right__ImgP__image {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+/* Второй блок */
+
+.main2 {
+    margin-left: 50px;
+    color: #fff;
+}
+
+.main2__title-h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.main2__title-p {
+    display: flex;
+    justify-content: flex-start; 
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main2__collage {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.main2__collage__block1 {
+    
+}
+
+.main2__collage__small {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    max-height: 100px;
+}
+
+.main2__collage__small-more {
+    border: 1px #A259FF solid;
+    background-color: #A259FF;
+    padding: 30px 30px;
+    border-radius: 25px;
+    font-family: "Space Mono", monospace;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+} 
+
+.main2__collage_user-name {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+.main2__collage_user-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 300;
+}
+
+/* Третий блок */
+
+.main3 {
+    margin: 150px 0 0 50px;
+    color: #fff;
+}
+
+.main3__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main3__title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.main3__title-p {
+    font-size: 25px;
+    font-weight: 300;
+}
+.main3__title__rocket {
+}
+
+.main3__title__rocket__button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px #A259FF solid;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 53px 50px 0 0;
+}
+
+.rocket {
+    width: 20px;
+    height: 20px;
+}
+
+.main3__title__rocket-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main3__creators {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.main3__creators__item {
+    background-color: #3B3B3B;
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+}
+
+.main3__creators__item-top {
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.main3__creators__item-top__number {
+    color: #858584;
+    font-family: "Space Mono", monospace;
+    border: 1px #2B2B2B solid;
+    background-color: #2B2B2B;
+    padding: 10px 10px;
+    border-radius: 25px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.main3__creators__item-bottom {
+
+}
+
+.main3__creators__item-bottom__title {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+
+}
+.main3__creators__item-bottom__sales {
+    display: flex;
+    justify-content: center;
+    font-family: "Space Mono", monospace;
+}
+.gray {
+    color: #858584;
+    margin-right: 10px;
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Чётвёртый блок */
+
+.main4 {
+    color: #fff;
+    margin: 100px 0 0 50px;
+}
+
+.main4__title {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.main4__categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.main4__categories__item {
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    width: 240px;
+}
+
+.main4__categories__item-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main4__categories__item-top_img {
+    z-index: 99;
+    position: absolute;
+    margin: 60px 0 0 70px;
+}
+
+.main4__categories__item-bottom {
+    width: 240px;
+}
+
+.main4__categories__item-bottom_text {
+    margin: 0;
+    padding: 20px 0 20px 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bgc1 {
+    background-image: url("../images/img/main4__item_bgc.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc2 {
+    background-image: url("../images/img/main4__item_bgc2.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc3 {
+    background-image: url("../images/img/main4__item_bgc3.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+
+.bgc4 {
+    background-image: url("../images/img/main4__item_bgc4.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc5 {
+    background-image: url("../images/img/main4__item_bgc5.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc6 {
+    background-image: url("../images/img/main4__item_bgc6.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc7 {
+    background-image: url("../images/img/main4__item_bgc7.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+.bgc8 {
+    background-image: url("../images/img/main4__item_bgc8.png");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    filter: blur(9px);
+}
+
+/* Пятый блок */
+
+.main5 {
+    margin: 150px 0 0 50px;
+    color: #fff;
+}
+
+.main5__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main5__title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.main5__title-p {
+    font-size: 25px;
+    font-weight: 300;
+}
+.main5__title__eye {
+}
+
+.main5__title__eye__button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px #A259FF solid;
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 53px 50px 0 0;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+}
+
+.main5__title__eye-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.main5__block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main5__block__item-bottom {
+    background-color: #3B3B3B;
+    width: 330px;
+    height: 173px;
+    border-radius: 0 0 25px 25px;
+}
+
+.main5__block__item-bottom_title {
+    font-size: 25px;
+    font-weight: 600;
+    margin: -3px 0 0 30px;
+    padding-top: 20px;
+}
+
+.main5__block__item-bottom_creator {
+    display: flex;
+    gap: 10px;
+    margin: 0 0 0 30px;
+    align-items: center;
+}
+
+.main5__block__item-bottom_creator-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+.main5__block__item-bottom_creator-text {
+    font-family: "Space Mono", sans-serif;
+}
+
+.main5__block__item-bottom_under {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+}
+
+.main5__block__item-bottom_under-price-p {
+    font-size: 12px;
+    color: #858584;
+    margin-bottom: 0;
+}
+
+.main5__block__item-bottom_under-bid-p {
+    font-size: 12px;
+    color: #858584;
+    margin-bottom: 0;
+}
+
+.eth {
+    font-size: 16px;
+    color: #fff;
+    font-family: "Space Mono", sans-serif;
+}
+
+/* Шестой блок */
+
+.main6 {
+    padding-top: 360px;
+}
