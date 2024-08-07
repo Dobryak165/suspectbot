@@ -23,6 +23,12 @@ body {
     background-image: url("../images/img/main6-bgc.png");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.background__main6_color {
+    background-color: #2B2B2B;
 }
 
 .blur {
