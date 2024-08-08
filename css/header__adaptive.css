@@ -1,0 +1,16 @@
+@media (max-width:1280px) {
+    .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 834px) {
+    .nav__menu-adaptive1 {
+        display: none;
+    }
+
+    .burger {
+        display: initial;
+        margin-right: 50px;
+    }
+}

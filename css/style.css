@@ -1,5 +1,11 @@
 @import url("header.css");
 @import url("main.css");
+@import url("footer.css");
+@import url("header__adaptive.css");
+@import url("main__adaptive.css");
+@import url("footer__adaptive.css");
+
+/* Основное  */
 
 body {
     font-family: "Work Sans", sans-serif;
@@ -8,7 +14,6 @@ body {
 .container {
     max-width: 1280px;
     margin: 0 auto;
-
 }
 
 .background__header {
@@ -31,9 +36,17 @@ body {
     background-color: #2B2B2B;
 }
 
+.background__footer {
+    background-color: #3B3B3B;
+}
+
 .blur {
     filter: blur(9px);
     width: 240px;
     height: 240px;
     
 }
+
+/* Адаптив */
+
+    /* Адаптив хэдера */

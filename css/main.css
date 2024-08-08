@@ -607,10 +607,9 @@
 /* Восьмой блок */
 
 .main8 {
-    margin-top: 100px;
+    margin: 100px 50px 0 50px;
+    padding-bottom: 100px;
     padding-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
     color: #fff;
 }
 
@@ -623,7 +622,7 @@
 }
 
 .main8__right {
-    margin-right: 150px;
+    margin-right: 70px;
 }
 
 .main8__title {
@@ -634,18 +633,28 @@
 .main8__subtitle {
     font-size: 25px;
     font-weight: 300;
-    margin-top: 30px;
+    margin: 20px 0 30px 0;
 }
 
 .main8__input__email {
-    width: 211px;
+    width: 260px;
     height: 60px;
     border-radius: 20px;
+    border: 1px #fff solid;
+    padding-left: 30px;
 }
 
 .main8__input__subscribe {
+    color: #fff;
+    font-weight: 600;
+    padding-left: 30px;
     width: 211px;
-    height: 60px;
+    height: 65px;
     border-radius: 20px;
     background-color: #A259FF;
+    border: 1px #A259FF solid;
+    background-image: url("../images/svg/main8-letter.svg");
+    background-repeat: no-repeat;
+    background-position: 50px 21px;
+    margin-left: -70px;
 }
